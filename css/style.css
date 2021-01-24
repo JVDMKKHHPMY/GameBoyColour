@@ -1,0 +1,187 @@
+.contenedor {
+    margin-left: 30em;
+    margin-top: 3em;
+}
+
+.carcaza {
+    height: 35em;
+    background-color: darkcyan;
+    border-radius: 3em;
+    width: 25em;
+    position: absolute;
+    box-shadow: 5px 5px 5px 5px rgba(32, 33, 36, .28);
+}
+
+.pantalla1 {
+    height: 16em;
+    background-color: black;
+    width: 21em;
+    border-radius: 1em;
+    margin-left: 2em;
+    margin-top: 2em;
+    position: absolute;
+}
+
+.pantalla2 {
+    height: 12em;
+    width: 13em;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.7010154403558299) 0%, rgba(70, 159, 123, 0.7682423311121324) 39%, rgba(255, 255, 255, 1) 100%);
+    margin-left: 4em;
+    margin-top: 1.5em;
+}
+
+.contenedorCruz {
+    margin-top: 20em;
+    margin-left: 2em;
+}
+
+.cruz {
+    width: 6em;
+}
+
+.contenedorBotonB {
+    background-color: black;
+    width: 3em;
+    height: 3em;
+    border-radius: 15em;
+    position: absolute;
+    margin-left: 15em;
+    margin-top: -3em;
+}
+
+.contenedorBotonB:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+.botonB {
+    color: white;
+    margin-left: .65em;
+    font-size: 25px;
+    margin-top: .4em;
+}
+
+.contenedorBotonA {
+    background-color: black;
+    width: 3em;
+    height: 3em;
+    border-radius: 15em;
+    position: absolute;
+    margin-left: 19em;
+    margin-top: -6em;
+}
+
+.contenedorBotonA:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.botonA {
+    color: white;
+    margin-left: .63em;
+    font-size: 25px;
+    margin-top: .4em;
+}
+
+.contenedorBotonSelect {
+    background-color: black;
+    width: 2.3em;
+    height: .8em;
+    border-radius: 15em;
+    margin-top: 2.3em;
+    margin-left: 9em;
+}
+
+.contenedorBotonSelect:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+.contenedorBotonStart {
+    background-color: black;
+    width: 2.3em;
+    height: .8em;
+    border-radius: 15em;
+    margin-top: -.8em;
+    margin-left: 13em;
+}
+
+.contenedorBotonStart:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+
+.contenedorBotonTextSelect {
+    position: absolute;
+    margin-top: 29em;
+    margin-left: 8.7em;
+}
+
+.botonSelect,
+.botonStart {
+    font-size: 12px;
+    color: black;
+}
+
+.contenedorBotonTextStart {
+    position: absolute;
+    margin-top: 29em;
+    margin-left: 13em;
+}
+
+.contenedorAltavoz {
+    position: absolute;
+    margin-top: 27em;
+    margin-left: 18em;
+}
+
+.altavoz {
+    width: 90px;
+}
+
+.textColor {
+    width: 10em;
+    margin-left: 5.5em;
+    margin-top: .7em;
+}
+
+.contenedorPower {
+    position: absolute;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.power {
+    color: white;
+    font-size: 9px;
+}
+
+.botonPower {
+    background-color: red;
+    width: .7em;
+    height: .7em;
+    border-radius: 50em;
+    margin-left: .5em;
+}
+
+.contenedorNintendo {
+    position: absolute;
+    margin-top: 18em;
+    margin-left: 10.5em;
+}
+
+.textNintendo {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.boxNintendo {
+    height: 1.1em;
+    width: 5em;
+    border: #064d83 4px solid;
+    border-radius: 1em;
+    margin-top: -2.3em;
+    margin-left: -0.60em;
+}
